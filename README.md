@@ -24,8 +24,6 @@ Berikut adalah cuplikan singkat dari fungsionalitas utama aplikasi, mulai dari m
   <img src="assets/images/app_demo.gif" alt="Demo Aplikasi Kuis" width="300"/>
 </div>
 
-> **Catatan**: Anda perlu membuat file `app_demo.gif` Anda sendiri yang menunjukkan cara kerja aplikasi.
-
 ---
 
 ### ✨ **Fitur Unggulan**
