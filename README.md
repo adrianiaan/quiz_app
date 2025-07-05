@@ -25,7 +25,6 @@ Berikut adalah cuplikan singkat dari fungsionalitas utama aplikasi, mulai dari m
   <img src="https://raw.githubusercontent.com/adrianiaan/quiz_app/main/assets/images/app_demo.gif" alt="Demo Aplikasi Kuis" width="300"/>
 </div>
 
-> **Catatan Penting**: Anda perlu membuat file GIF bernama `app_demo.gif` dan meletakkannya di folder `assets/images/` lalu push ke GitHub agar gambar demo ini muncul.
 
 ---
 
