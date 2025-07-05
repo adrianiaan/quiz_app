@@ -1,16 +1,17 @@
 <div align="center">
   <img src="assets/images/quiz-logo.png" alt="Quiz App Logo" width="150"/>
 
-  # **Quiz App Flutter 🚀**
+  # **Flutter Quiz App**
 
   <p>
-    Sebuah aplikasi kuis interaktif yang dibangun dengan Flutter untuk mendemonstrasikan konsep-konsep inti pengembangan aplikasi mobile. Proyek ini adalah eksplorasi belajar yang menyenangkan!
+    Sebuah aplikasi kuis sederhana yang dibuat dengan Flutter untuk mempelajari konsep-konsep dasar pengembangan aplikasi mobile. Proyek ini dikembangkan sebagai bagian dari praktikum pemrograman mobile.
   </p>
 
   <p>
     <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Badge"/>
     <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart Badge"/>
-    <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-green.svg?style=for-the-badge" alt="Platform Badge"/>
+    <img src="https://img.shields.io/github/stars/adrianiaan/quiz_app?style=for-the-badge&logo=github&label=Stars" alt="GitHub Stars"/>
+    <img src="https://img.shields.io/github/forks/adrianiaan/quiz_app?style=for-the-badge&logo=github&label=Forks" alt="GitHub Forks"/>
   </p>
 </div>
 
@@ -21,8 +22,10 @@
 Berikut adalah cuplikan singkat dari fungsionalitas utama aplikasi, mulai dari memulai kuis hingga melihat hasilnya.
 
 <div align="center">
-  <img src="assets/images/app_demo.gif" alt="Demo Aplikasi Kuis" width="300"/>
+  <img src="https://raw.githubusercontent.com/adrianiaan/quiz_app/main/assets/images/app_demo.gif" alt="Demo Aplikasi Kuis" width="300"/>
 </div>
+
+> **Catatan Penting**: Anda perlu membuat file GIF bernama `app_demo.gif` dan meletakkannya di folder `assets/images/` lalu push ke GitHub agar gambar demo ini muncul.
 
 ---
 
@@ -30,24 +33,24 @@ Berikut adalah cuplikan singkat dari fungsionalitas utama aplikasi, mulai dari m
 
 -   🧠 **Kuis Dinamis**: Pertanyaan dan urutan jawaban diacak setiap kali permainan dimulai.
 -   📊 **Skor & Ringkasan**: Laporan hasil yang detail, menunjukkan jawaban benar dan salah.
--   👤 **Halaman Profil Kustom**: Area untuk menampilkan identitas developer.
--   🔁 **Restart Cepat**: Mulai ulang kuis dengan sekali tekan tombol.
--   📱 **Desain Responsif**: Tampilan yang rapi di berbagai ukuran layar.
+-   👤 **Halaman Profil**: Menampilkan data diri pengembang aplikasi.
+-   🔁 **Restart Kuis**: Fitur untuk memulai ulang kuis dengan sekali tekan.
+-   📱 **Desain Gradien**: Tampilan antarmuka yang modern dengan latar belakang gradien.
 
 ---
 
-### 🛠️ **Instalasi & Penggunaan**
+### 🛠️ **Cara Menjalankan Proyek**
 
-Siap untuk mencoba? Ikuti langkah-langkah mudah di bawah ini:
+Ingin mencoba aplikasi ini? Ikuti langkah-langkah mudah di bawah ini:
 
 1.  **Clone Repositori**
     ```sh
-    git clone [https://github.com/NAMA_USERNAME_ANDA/NAMA_REPOSITORI_ANDA.git](https://github.com/NAMA_USERNAME_ANDA/NAMA_REPOSITORI_ANDA.git)
+    git clone [https://github.com/adrianiaan/quiz_app.git](https://github.com/adrianiaan/quiz_app.git)
     ```
 
 2.  **Masuk ke Direktori Proyek**
     ```sh
-    cd NAMA_REPOSITORI_ANDA
+    cd quiz_app
     ```
 
 3.  **Instal Dependensi**
@@ -62,17 +65,17 @@ Siap untuk mencoba? Ikuti langkah-langkah mudah di bawah ini:
 
 ---
 
-### 💡 **Konsep yang Dipelajari**
+### 💡 **Konsep yang Diterapkan**
 
-Proyek ini mencakup beberapa konsep penting dalam Flutter, antara lain:
+Proyek ini adalah implementasi dari beberapa konsep penting dalam Flutter, antara lain:
 -   **State Management**: Menggunakan `StatefulWidget` dan `setState` untuk mengelola UI yang dinamis.
--   **Navigasi**: Berpindah antar layar secara terprogram.
+-   **Navigasi**: Berpindah antar layar secara terprogram tanpa menggunakan `Navigator.push`.
 -   **Reusable Widgets**: Memecah UI menjadi komponen-komponen kecil yang dapat digunakan kembali (`AnswerButton`, `SummaryItem`).
--   **Layouting**: Menggunakan `Column`, `Row`, dan `Container` untuk membangun UI yang kompleks.
--   **Asset Management**: Memuat gambar dan font lokal ke dalam aplikasi.
+-   **Asset Management**: Memuat gambar dan font lokal (`google_fonts`) ke dalam aplikasi.
 
 ---
 
 <div align="center">
-  <p>Dibuat dengan ❤️ untuk Praktikum Pemrograman Mobile</p>
+  <p>Dibuat oleh <strong>Adrian Akhmad Firdaus</strong> sebagai Proyek Praktikum.</p>
+  <p>Jangan ragu untuk memberi ⭐ jika Anda merasa proyek ini bermanfaat!</p>
 </div>
